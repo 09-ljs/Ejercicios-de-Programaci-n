@@ -15,7 +15,7 @@ for(let i = 1; 1 <= 20; i++); {
 */
 
 // Do while
-//Ejecut ael código una  vez hasta que la condicion se cumpla
+//Ejecuta el código una  vez hasta que la condicion se cumpla
 
 /*
 let numero;
@@ -47,12 +47,26 @@ for(let i = 0; i <= 9; i++) {
 
 // 1. Mostrar los numeros del uno al 50
 
+/*
 for(let i = 1; i <=50; i++) {
-    console.log(i);
+    console.log(i); 
 }
+*/
 
 // 2. Mostrar los numeros pares desde el 0 hasta el 20
 
+/*
 for(let i = 0; i <= 10;i++) {
     console.log(i * 2);
+}
+*/
+
+//Tabla de multiplicar del 1 al 10
+
+for (let i = 1; i <= 10; i++) {
+    console.log("Tabla de multiplicar del ", i);
+    for (let j = 1; j <= 10; j++) {
+        console.log(i + " x " + j + " = " + (i * j));
+    }
+    console.log("\n");
 }
